@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from '@/components/Navbar';
+import React from "react";
+import Navbar from "@/components/Navbar";
 
-export default function Home() {
-  return (
+const HomePage = () => {
+    return (
       <div>
         <Navbar />
         <section id="home" className="h-screen flex items-center justify-center">
@@ -10,5 +10,7 @@ export default function Home() {
         </section>
         {/* Tambahkan konten lain di sini */}
       </div>
-  );
-}
+    );
+  };
+
+  export default HomePage;
