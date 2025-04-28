@@ -60,7 +60,11 @@ const StyledLinkButton = styled.a`
 `;
 
 const Button = ({ href, text }) => {
-  return <StyledLinkButton href={href}>{text}</StyledLinkButton>;
+  return (
+    <a href={href} className="styled-link-button">
+      {text}
+    </a>
+  );
 };
 
 export default Button;
