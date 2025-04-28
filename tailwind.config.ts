@@ -1,7 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  darkMode: "class", // Enable dark mode
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}", // Semua file di dalam src
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -20,5 +24,7 @@ module.exports = {
       },
     },
   },
-  plugins: ["styled-components"],
+  plugins: [],
 };
+
+export default config;

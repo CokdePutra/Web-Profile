@@ -48,6 +48,7 @@ body {
   display: flex;
   justify-content: center;
   background: linear-gradient(270deg, #ff622e 0%, #b133ff 100%);
+  overflow: hidden;
 }
 
 .styled-link-button:focus {
@@ -68,6 +69,10 @@ body {
   border: 1px solid #304169;
   box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15),
     inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+}
+
+.background-nav {
+  background: #0f1624;
 }
 
 @media (max-width: 768px) {

@@ -15,16 +15,12 @@ const Navbar = () => {
         setIsOpen(false);
       }
     };
-    if (isOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
-    } else {
-      document.removeEventListener("mousedown", handleClickOutside);
-    }
 
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isOpen]);
+  }, []);
 
   return (
     <nav className="bg-primary text-white">
@@ -45,10 +41,11 @@ const Navbar = () => {
 
         {/* Menu */}
         <div
-          className={`bg-primary flex-col md:flex md:flex-row md:items-center md:space-x-6 md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-6 transition-all duration-700 ease-in-out z-50 ${
-            isOpen ? "top-16 left-0" : "top-[-490px]"
+          ref={menuRef} // Attach the ref to the menu div
+          className={`background-nav bg-primary flex-col md:flex md:flex-row md:items-center md:space-x-6 md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-6 transition-all duration-700 ease-in-out z-50 ${
+            isOpen ? "top-16 left-0 " : "top-[-490px]"
           }`}>
-          <ul className="flex flex-col md:flex-row md:space-x-6">
+          <ul className="flex flex-col md:flex-row md:space-x-6 text-gray-400 font-semibold">
             <li className="py-2 md:py-0">
               <Link
                 href="#home"
