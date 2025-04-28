@@ -49,28 +49,36 @@ const Navbar = () => {
             <li className="py-2 md:py-0">
               <Link
                 href="#home"
-                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
+                scroll={false}
+                onClick={() => setIsOpen(false)}
+                className="hover:text-white block transition-all duration-400 ease-in-out">
                 Home
               </Link>
             </li>
             <li className="py-2 md:py-0">
               <Link
-                href="#about"
-                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
-                About
+                href="#projects"
+                scroll={false}
+                onClick={() => setIsOpen(false)}
+                className="hover:text-white block transition-all duration-400 ease-in-out">
+                Projects
               </Link>
             </li>
             <li className="py-2 md:py-0">
               <Link
                 href="#projects"
-                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
+                scroll={false}
+                onClick={() => setIsOpen(false)}
+                className="hover:text-white block transition-all duration-400 ease-in-out">
                 Projects
               </Link>
             </li>
             <li className="py-2 md:py-0">
               <Link
                 href="#contact"
-                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
+                scroll={false}
+                onClick={() => setIsOpen(false)}
+                className="hover:text-white block transition-all duration-400 ease-in-out">
                 Contact
               </Link>
             </li>

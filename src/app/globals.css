@@ -5,6 +5,9 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -42,7 +45,7 @@ body {
   line-height: 16px;
   width: fit-content;
   margin-top: 32px;
-  margin-bottom: 50px;
+  margin-bottom: 32px;
   cursor: pointer;
   transition: 0.4s ease-in-out;
   display: flex;
