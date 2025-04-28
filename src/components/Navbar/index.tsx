@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <div className="text-lg font-bold">
-          <a href="/">MyPortfolio</a>
+          <a href="/">My Profile</a>
         </div>
 
         {/* Hamburger Button */}
@@ -45,27 +45,35 @@ const Navbar = () => {
 
         {/* Menu */}
         <div
-          className={`flex-col md:flex md:flex-row md:items-center md:space-x-6 md:static absolute bg-primary w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-6 transition-all duration-300 ease-in ${
-            isOpen ? "top-16 left-0" : "top-16 left-[-490px]"
+          className={`bg-primary flex-col md:flex md:flex-row md:items-center md:space-x-6 md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-6 transition-all duration-700 ease-in-out z-50 ${
+            isOpen ? "top-16 left-0" : "top-[-490px]"
           }`}>
           <ul className="flex flex-col md:flex-row md:space-x-6">
             <li className="py-2 md:py-0">
-              <Link href="#home" className="hover:text-gray-400 block">
+              <Link
+                href="#home"
+                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
                 Home
               </Link>
             </li>
             <li className="py-2 md:py-0">
-              <Link href="#about" className="hover:text-gray-400 block">
+              <Link
+                href="#about"
+                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
                 About
               </Link>
             </li>
             <li className="py-2 md:py-0">
-              <Link href="#projects" className="hover:text-gray-400 block">
+              <Link
+                href="#projects"
+                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
                 Projects
               </Link>
             </li>
             <li className="py-2 md:py-0">
-              <Link href="#contact" className="hover:text-gray-400 block">
+              <Link
+                href="#contact"
+                className="hover:text-gray-400 block transition-all duration-400 ease-in-out">
                 Contact
               </Link>
             </li>

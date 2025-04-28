@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // Semua file di dalam src
+  ],
   theme: {
     extend: {
       colors: {
         primary: "#2c304d", // blue bg
-        secondary: "#9333EA", // none
+        secondary: "#9333EA", // purple
         colorGray: "#828a98", // gray text
-        Gradient: "linear-gradient(to right, #0f1724, #0f1724)",
-        Gradient2: "linear-gradient(to right, #0f1724, #9333EA)",
       },
       spacing: {
         72: "18rem", // custom spacing
@@ -20,5 +20,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: ["styled-components"],
 };

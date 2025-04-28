@@ -1,24 +1,23 @@
 import React from "react";
 import styled from "styled-components";
 
-// Styled component untuk tombol
 const StyledLinkButton = styled.a`
   color: #fff;
-  background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
   box-sizing: border-box;
   border-radius: 999px;
   padding: 16px 24px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 16px;
   width: fit-content;
   margin-top: 32px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   cursor: pointer;
   transition: 0.4s ease;
   display: flex;
   justify-content: center;
+  background: linear-gradient(270deg, #ff622e 0%, #b133ff 100%);
 
   &:focus {
     outline: none;
@@ -28,6 +27,10 @@ const StyledLinkButton = styled.a`
     color: #0f1624;
     background: #fff;
     border: 1px solid #fff;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(46, 49, 55, 0.15),
+      0px 0px 4px rgba(20, 20, 55, 0.3);
+    transform: translateY(-1px);
   }
 
   &:active {
