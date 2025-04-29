@@ -2,6 +2,7 @@
 import React from "react";
 import { Layout } from "../layout/Layout";
 import Button from "@/components/Button/Button";
+import CardsProjects from "@/components/Cards/CardsProjects";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
           id="home"
           className="h-auto my-10 md:p-5 lg:p-10 md:mx-10 flex items-center justify-between">
           <div className="left max-w-[600px] p-5 ">
-            <h1 className="text-3xl md:text-7xl font-bold my-5 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-7xl font-bold my-5 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
               Welcome to Cokde Putra Profile
             </h1>
 
@@ -36,11 +37,15 @@ export default function Home() {
         {/* Project  Section */}
         <section
           id="projects"
-          className="h-auto my-10 md:p-5 lg:p-10 md:mx-10 flex items-center justify-between ">
-          <div className=" p-5 ">
-            <h1 className="text-3xl md:text-7xl font-bold my-5 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
+          className="h-auto my-12 md:p-5 lg:p-10 md:mx-10 flex flex-col items-center">
+          <div className="p-5 w-full">
+            <h1 className="text-4xl md:text-7xl font-bold my-5 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent w-auto">
               Projects
             </h1>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 justify-items-center p-3 w-full max-w-6xl mx-auto my-10">
+              <CardsProjects />
+            </div>
           </div>
         </section>
       </div>

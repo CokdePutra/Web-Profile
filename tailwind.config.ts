@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#2c304d", // blue bg
+        dark_primary: "#1e1e2f", // dark bg
         secondary: "#9333EA", // purple
         colorGray: "#828a98", // gray text
       },

@@ -3,7 +3,7 @@ export const projects = [
     title: "School Tuition Payment",
     description:
       "Using HTML, CSS, JavaScript, PHP. This Website made for a school admin to insert Payment Tuition for Students and Students also can check their data, like how many they already paid the Tuition.",
-    image: "/images/PaymentSPP.png",
+    image: "images/profile-pic.jpg",
     tags: ["HTML", "CSS", "JavaScript", "PHP"],
     source: "https://github.com/CokdePutra/pembayaran-spp",
     visit: "https://github.com/CokdePutra/pembayaran-spp",
