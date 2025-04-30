@@ -38,8 +38,8 @@ const CardsProjects = () => {
                 </ul>
               </div>
               <div className="flex justify-between mt-4">
-                <ButtonProjects href={source} text="Source" />
-                <ButtonProjects href={visit} text="Visit" />
+                <ButtonProjects href={source} target="_blank" text="Source" />
+                <ButtonProjects href={visit} target="_blank" text="Visit" />
                 {/* <a href={visit} className="text-blue-500 mt-4 block">
                   Visit
                 </a> */}
