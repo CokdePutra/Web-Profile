@@ -17,7 +17,7 @@ const CardsProjects = () => {
                 src={image}
                 alt=""
               />
-              <h2 className="text-3xl font-bold my-5 text-center px-8">
+              <h2 className="text-3xl font-bold my-5 text-center mt-15 px-8">
                 {title}
               </h2>
               <p className="text-gray-400 mt-2 text-xl text-justify my-5 w-full px-8">
