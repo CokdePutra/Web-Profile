@@ -1,6 +1,8 @@
 import React from "react";
 import { projects } from "../../constants/constants";
 import ButtonProjects from "../Button/ButtonProjects";
+import Description from "../Common/Description";
+import { SubTitle } from "../Common/TitleSection";
 
 const CardsProjects = () => {
   return (
@@ -17,12 +19,8 @@ const CardsProjects = () => {
                 src={image}
                 alt=""
               />
-              <h2 className="text-3xl font-bold my-5 text-center mt-15 px-8">
-                {title}
-              </h2>
-              <p className="text-gray-400 mt-2 text-xl text-justify my-5 w-full px-8">
-                {description}
-              </p>
+              <SubTitle SubTitle={title} />
+              <Description className="text-xl px-8" description={description} />
             </div>
             <div className="p-8">
               <div className="my-7 text-center">
