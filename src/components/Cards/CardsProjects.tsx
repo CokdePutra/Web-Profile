@@ -12,10 +12,10 @@ const CardsProjects = () => {
           <div
             key={id}
             style={{ boxShadow: "var(--shadow-cards)" }}
-            className="bg-primary rounded-xl hover:shadow-m transition-shadow duration-300 w-[320px] md:w-[420px] m-5 flex flex-col justify-between">
+            className="dark:bg-primary rounded-xl hover:shadow-m transition-shadow duration-300 w-[320px] md:w-[420px] m-5 flex flex-col justify-between">
             <div className="flex flex-col justify-between">
               <img
-                className="w-full h-80 object-cover md:h-80"
+                className="w-full h-80 object-cover md:h-80 rounded-t-xl"
                 src={image}
                 alt=""
               />
@@ -24,12 +24,12 @@ const CardsProjects = () => {
             </div>
             <div className="p-8">
               <div className="my-7 text-center">
-                <h3 className="text-white my-5">Stack</h3>
+                <h3 className="dark:text-white text-black my-5">Stack</h3>
                 <ul className="w-full flex gap-2 justify-center m-auto md:justify-around p-3 flex-wrap">
                   {tags.map((tag, index) => (
                     <li
                       key={index}
-                      className="text-gray-300 bg-gray-800 px-3 py-1 rounded-full text-sm my-2">
+                      className="dark:text-gray-300 text-white bg-gray-800 px-3 py-1 rounded-full text-sm my-2">
                       {tag}
                     </li>
                   ))}

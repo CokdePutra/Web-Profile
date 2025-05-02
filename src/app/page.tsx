@@ -11,7 +11,7 @@ import { MdDescription } from "react-icons/md";
 export default function Home() {
   return (
     <Layout>
-      <Section id="home" className="justify-between">
+      <Section id="home" className="justify-between ">
         <div className="left max-w-[600px] p-5 ">
           <TitleSection SectionTitle="Welcome to Cokde Putra Profile" />
           <Description

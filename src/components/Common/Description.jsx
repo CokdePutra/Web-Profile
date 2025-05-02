@@ -2,7 +2,8 @@ import React from "react";
 
 const Description = ({ className = "", description }) => {
   return (
-    <p className={`text-lg my-4 text-gray-400 text-justify ${className}`}>
+    <p
+      className={`text-lg my-4 dark:text-gray-400 text-gray-700 text-justify ${className}`}>
       {description}
     </p>
   );

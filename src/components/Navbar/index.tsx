@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-primary text-white">
+    <nav className="dark:bg-primary dark:text-white bg-white text-black">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <div className="text-lg font-bold">
@@ -42,16 +42,16 @@ const Navbar = () => {
         {/* Menu */}
         <div
           ref={menuRef} // Attach the ref to the menu div
-          className={`background-nav bg-primary flex-col md:flex md:flex-row md:items-center md:space-x-6 md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-6 transition-all duration-700 ease-in-out z-50 ${
+          className={`dark:bg-primary bg-white flex-col md:flex md:flex-row md:items-center md:space-x-6 md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:px-0 px-6 transition-all duration-700 ease-in-out z-50 ${
             isOpen ? "top-16 left-0 " : "top-[-490px]"
           }`}>
-          <ul className="flex flex-col md:flex-row md:space-x-6 text-gray-400 font-semibold">
+          <ul className="flex flex-col md:flex-row md:space-x-6 dark:text-gray-400 font-semibold ">
             <li className="py-2 md:py-0">
               <Link
                 href="#home"
                 scroll={false}
                 onClick={() => setIsOpen(false)}
-                className="hover:text-white block transition-all duration-400 ease-in-out">
+                className="hover:text-white block transition-all duration-400 ease-in-out ">
                 Home
               </Link>
             </li>
@@ -85,24 +85,24 @@ const Navbar = () => {
           </ul>
 
           {/* Sosmed Icons */}
-          <div className="flex space-x-4 mt-4 md:mt-0 md:ml-6">
+          <div className="flex space-x-4 mt-4 md:mt-0 md:ml-6 ">
             <Link
               href="https://github.com/CokdePutra"
-              className="transition duration-300 ease-in text-white rounded-[50px] p-[8px] hover:bg-primary hover:scale-120 hover:cursor-pointer"
+              className="transition duration-300 ease-in dark:text-white rounded-[50px] p-[8px] hover:bg-primary hover:scale-120 hover:cursor-pointer"
               target="_blank"
               rel="noopener noreferrer">
               <AiFillGithub size="2rem" />
             </Link>
             <Link
-              href="https://linkedin.com"
-              className="transition duration-300 ease-in text-white rounded-[50px] p-[8px] hover:bg-primary hover:scale-120 hover:cursor-pointer"
+              href="https://www.linkedin.com/in/cokorda-gde-putra-widnyana-surya-648696276"
+              className="transition duration-300 ease-in dark:text-white rounded-[50px] p-[8px] hover:bg-primary hover:scale-120 hover:cursor-pointer"
               target="_blank"
               rel="noopener noreferrer">
               <AiFillLinkedin size="2rem" />
             </Link>
             <Link
               href="https://www.instagram.com/cokde_putraws"
-              className="transition duration-300 ease-in text-white rounded-[50px] p-[8px] hover:bg-primary hover:scale-120 hover:cursor-pointer"
+              className="transition duration-300 ease-in dark:text-white rounded-[50px] p-[8px] hover:bg-primary hover:scale-120 hover:cursor-pointer"
               target="_blank"
               rel="noopener noreferrer">
               <AiFillInstagram size="2rem" />
