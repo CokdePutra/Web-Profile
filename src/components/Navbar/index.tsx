@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="dark:bg-primary dark:text-white bg-white text-black">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <div className="text-lg font-bold">
+        <div className="text-lg md:text-2xl font-bold">
           <a href="/">My Profile</a>
         </div>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
             <li className="py-2 md:py-0">
               <Link
                 href="#home"
-                scroll={false}
+                // scroll={false}
                 onClick={() => setIsOpen(false)}
                 className="hover:text-white block transition-all duration-400 ease-in-out ">
                 Home
@@ -58,7 +58,7 @@ const Navbar = () => {
             <li className="py-2 md:py-0">
               <Link
                 href="#projects"
-                scroll={false}
+                // scroll={false}
                 onClick={() => setIsOpen(false)}
                 className="hover:text-white block transition-all duration-400 ease-in-out">
                 Projects
@@ -67,7 +67,7 @@ const Navbar = () => {
             <li className="py-2 md:py-0">
               <Link
                 href="#projects"
-                scroll={false}
+                // scroll={false}
                 onClick={() => setIsOpen(false)}
                 className="hover:text-white block transition-all duration-400 ease-in-out">
                 Projects
@@ -76,7 +76,7 @@ const Navbar = () => {
             <li className="py-2 md:py-0">
               <Link
                 href="#contact"
-                scroll={false}
+                // scroll={false}
                 onClick={() => setIsOpen(false)}
                 className="hover:text-white block transition-all duration-400 ease-in-out">
                 Contact
