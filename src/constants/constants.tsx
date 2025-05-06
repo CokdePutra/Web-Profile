@@ -68,6 +68,63 @@ export const projects = [
   },
 ];
 
+export const MySkills = [
+  {
+    skill: "HTML",
+    level: "Intermediate",
+    tag: "frontend",
+    img: "/images/icon/htmlicon.svg",
+  },
+  {
+    skill: "CSS",
+    level: "Intermediate",
+    tag: "frontend",
+    img: "/images/icon/cssicon.svg",
+  },
+  {
+    skill: "JavaScript",
+    level: "Intermediate",
+    tag: "frontend",
+    img: "/images/icon/javascripticon.svg",
+  },
+  {
+    skill: "Tailwind CSS",
+    level: "Intermediate",
+    tag: "frontend",
+    img: "/images/icon/tailwindicon.svg",
+  },
+  {
+    skill: "Bootstrap",
+    level: "Intermediate",
+    tag: "frontend",
+    img: "/images/icon/bootstrapicon.svg",
+  },
+  {
+    skill: "React JS",
+    level: "Intermediate",
+    tag: "frontend",
+    img: "/images/icon/reacticon.svg",
+  },
+  {
+    skill: "Node JS",
+    level: "Beginner",
+    tag: "backend",
+    img: "/images/icon/nodeicon.svg",
+  },
+  {
+    skill: "Express JS",
+    level: "Beginner",
+    tag: "backend",
+    img: "/images/icon/expressicon.jpeg",
+  },
+  {
+    skill: "MySQL",
+    level: "Intermediate",
+    tag: "backend",
+    img: "/images/icon/mysqlicon.svg",
+  },
+];
+
 export const TimeLineData = [
   {
     year: 2020,
