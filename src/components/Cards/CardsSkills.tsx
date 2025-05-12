@@ -13,7 +13,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ img, skill, level }) => {
       <Image
         src={img}
         alt={skill}
-        className="h-16 mx-auto mb-4"
+        className="h-16 w-16 aspect-square flex items-center justify-center mb-4"
         width={500}
         height={300}
       />

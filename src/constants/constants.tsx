@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: "Website KSR STIKOM Bali",
+    description:
+      "Website KSR STIKOM Bali is a website that provides information about the KSR STIKOM Bali organization, including news, events, and activities. But mostly this website is to used for Blood Donation in STIKOM. and this website is still in development.",
+    image: "/images/ksr-website.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "NEXT JS",
+      "Tailwind",
+      "Express JS",
+      "MySQL",
+    ],
+    source: "https://github.com/CokdePutra/Web-NongkiYok",
+    visit: "https://nongki-yok.gungnanda.com/",
+    id: 0,
+  },
+  {
     title: "Bagus Baliku Tour",
     description:
       "Using HTML, CSS, JavaScript, with framework React. This Website is a travel website from my family business that provides information about tourist attractions, tour packages, and travel services in Bali.",
@@ -7,27 +25,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Tailwind", "React"],
     source: "https://github.com/CokdePutra/Bali-Tour",
     visit: "https://www.bagusbaliku.com/",
-    id: 0,
-  },
-  {
-    title: "Kini-Chan Sushi",
-    description:
-      "Kini-Chan Sushi is a website to display products from Kini-Chan Sushi which can be accessed anytime anywhere and on every device, because the Kini-Chan Sushi website is responsive. ",
-    image: "/images/kini-chan-sushi.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://github.com/CokdePutra/Kini-Chan-Sushi",
-    visit: "https://sushi.gmoons.my.id/",
     id: 1,
-  },
-  {
-    title: "Website Wedding",
-    description:
-      "This is a wedding website that can be used to display information about the wedding event, such as the date, location, and other important details.",
-    image: "/images/wedding-website.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://github.com/CokdePutra/Kini-Chan-Sushi",
-    visit: "https://wedding.gmoons.my.id/",
-    id: 2,
   },
   {
     title: "Nongki Yok",
@@ -46,24 +44,26 @@ export const projects = [
     ],
     source: "https://github.com/CokdePutra/Web-NongkiYok",
     visit: "https://nongki-yok.gungnanda.com/",
+    id: 2,
+  },
+  {
+    title: "Kini-Chan Sushi",
+    description:
+      "Kini-Chan Sushi is a website to display products from Kini-Chan Sushi which can be accessed anytime anywhere and on every device, because the Kini-Chan Sushi website is responsive. ",
+    image: "/images/kini-chan-sushi.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    source: "https://github.com/CokdePutra/Kini-Chan-Sushi",
+    visit: "https://sushi.gmoons.my.id/",
     id: 3,
   },
   {
-    title: "Website KSR STIKOM Bali",
+    title: "Website Wedding",
     description:
-      "Website KSR STIKOM Bali is a website that provides information about the KSR STIKOM Bali organization, including news, events, and activities. But mostly this website is to used for Blood Donation in STIKOM. and this website is still in development.",
-    image: "/images/nongki-yok.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "NEXT JS",
-      "Tailwind",
-      "Express JS",
-      "MySQL",
-    ],
-    source: "https://github.com/CokdePutra/Web-NongkiYok",
-    visit: "https://nongki-yok.gungnanda.com/",
+      "This is a wedding website that can be used to display information about the wedding event, such as the date, location, and other important details.",
+    image: "/images/wedding-website.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    source: "https://github.com/CokdePutra/Kini-Chan-Sushi",
+    visit: "https://wedding.gmoons.my.id/",
     id: 4,
   },
 ];
