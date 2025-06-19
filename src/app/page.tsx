@@ -43,7 +43,7 @@ export default function Home() {
       </Section>
 
       {/* Skills Section */}
-      <Section id="Skills">
+      <Section id="skills">
         <div className="p-5 w-full">
           <TitleSection SectionTitle="My Skills" />
           <div>
