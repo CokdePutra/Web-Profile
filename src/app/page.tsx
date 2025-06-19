@@ -20,12 +20,7 @@ export default function Home() {
       <Section id="home" className="justify-between ">
         <div className="left max-w-[600px] p-5 ">
           <TitleSection SectionTitle="Welcome to Cokde Putra Profile" />
-          <Description
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            reiciendis deleniti voluptatibus aperiam recusandae earum inventore
-            veniam, ducimus laudantium porro eveniet ipsam eum, alias, officiis
-            nisi aliquam eligendi excepturi tenetur!."
-          />
+          <Description description="Hello, I am Cokde Putra, a passionate web developer with a keen interest in creating dynamic and responsive web applications. I specialize in both frontend and backend development, ensuring a seamless user experience across all devices." />
           <Button href="#" text="Download CV" />
         </div>
         <div className="right hidden md:block">
