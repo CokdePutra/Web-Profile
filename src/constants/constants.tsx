@@ -13,8 +13,8 @@ export const projects = [
       "Express JS",
       "MySQL",
     ],
-    source: "https://github.com/CokdePutra/Web-Profile",
-    visit: "https://github.com/CokdePutra/Web-Profile",
+    source: "https://github.com/CokdePutra/Admin-NextJs",
+    visit: "https://github.com/CokdePutra/Admin-NextJs",
     id: 0,
   },
   {
