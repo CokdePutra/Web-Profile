@@ -13,8 +13,8 @@ export const projects = [
       "Express JS",
       "MySQL",
     ],
-    source: "https://github.com/CokdePutra/Web-NongkiYok",
-    visit: "https://nongki-yok.gungnanda.com/",
+    source: "https://github.com/CokdePutra/Web-Profile",
+    visit: "https://github.com/CokdePutra/Web-Profile",
     id: 0,
   },
   {

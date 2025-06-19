@@ -66,11 +66,11 @@ const Navbar = () => {
             </li>
             <li className="py-2 md:py-0">
               <Link
-                href="#projects"
+                href="#skills"
                 // scroll={false}
                 onClick={() => setIsOpen(false)}
                 className="hover:text-white block transition-all duration-400 ease-in-out">
-                Projects
+                Skills
               </Link>
             </li>
             <li className="py-2 md:py-0">
