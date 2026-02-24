@@ -3,6 +3,7 @@ import { projects } from "../../constants/constants";
 import ButtonProjects from "../Button/ButtonProjects";
 import Description from "../Common/Description";
 import { SubTitle } from "../Common/TitleSection";
+import Image from "next/image";
 
 const CardsProjects = () => {
   return (
@@ -14,10 +15,12 @@ const CardsProjects = () => {
             style={{ boxShadow: "var(--shadow-cards)" }}
             className="dark:bg-primary rounded-xl hover:shadow-m transition-shadow duration-300 w-[320px] md:w-[420px] m-5 flex flex-col justify-between">
             <div className="flex flex-col justify-between">
-              <img
+              <Image
                 className="w-full h-80 object-cover md:h-80 rounded-t-xl"
                 src={image}
-                alt=""
+                alt={title}
+                width={420}
+                height={320}
               />
               <SubTitle SubTitle={title} />
               <Description className="text-xl px-8" description={description} />

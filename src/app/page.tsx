@@ -8,6 +8,7 @@ import Section from "@/components/Section/Section";
 import Description from "@/components/Common/Description";
 import CardsSkills from "@/components/Cards/CardsSkills";
 import { MySkills } from "@/constants/constants";
+import Image from "next/image";
 
 export default function Home() {
   const [activeSkills, setActiveSkills] = useState<string>("all");
@@ -24,10 +25,12 @@ export default function Home() {
           <Button href="#" text="Download CV" />
         </div>
         <div className="right hidden md:block">
-          <img
-            src="images/profile-pic.jpg"
+          <Image
+            src="/images/profile-pic.jpg"
             alt="Profile Picture"
             className="max-w-[385px] h-auto rounded-tr-[165px] rounded-bl-[165px] shadow-lg px-5"
+            width={385}
+            height={385}
           />
         </div>
       </Section>

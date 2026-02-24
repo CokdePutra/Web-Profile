@@ -31,7 +31,7 @@ export const projects = [
     title: "Bagus Baliku Tour",
     description:
       "Using HTML, CSS, JavaScript, with framework React. This Website is a travel website from my family business that provides information about tourist attractions, tour packages, and travel services in Bali.",
-    image: "images/bagus-baliku-tour.png",
+    image: "/images/bagus-baliku-tour.png",
     tags: ["HTML", "CSS", "JavaScript", "Tailwind", "React"],
     source: "https://github.com/CokdePutra/Bali-Tour",
     visit: "https://www.bagusbaliku.com/",
