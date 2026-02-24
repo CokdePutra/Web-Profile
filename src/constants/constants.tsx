@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Unity Visual Website (Company Profile)",
+    description:
+      "Unity Visual is a company that provides services in the field of visual communication, such as graphic design, video production, and animation. This website is built using React JS and Node JS, and uses Tailwind CSS for styling.",
+    image: "/images/unityvisual_web.png",
+    tags: ["HTML", "CSS", "JavaScript", "NEXT JS", "Tailwind"],
+    source: "#",
+    visit: "https://unityvisual.com",
+    id: 0,
+  },
+  {
     title: "Website KSR STIKOM Bali",
     description:
       "Website KSR STIKOM Bali is a website that provides information about the KSR STIKOM Bali organization, including news, events, and activities. But mostly this website is to used for Blood Donation in STIKOM. and this website is still in development.",
