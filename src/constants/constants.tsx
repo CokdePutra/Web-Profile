@@ -7,7 +7,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "NEXT JS", "Tailwind"],
     source: "#",
     visit: "https://unityvisual.com",
-    id: 0,
+    id: 5,
   },
   {
     title: "Website KSR STIKOM Bali",

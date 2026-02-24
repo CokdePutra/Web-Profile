@@ -26,7 +26,7 @@ export default function Home() {
         <div className="right hidden md:block">
           <img
             src="images/profile-pic.jpg"
-            alt=""
+            alt="Profile Picture"
             className="max-w-[385px] h-auto rounded-tr-[165px] rounded-bl-[165px] shadow-lg px-5"
           />
         </div>
