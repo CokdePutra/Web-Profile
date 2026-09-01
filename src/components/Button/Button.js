@@ -58,9 +58,9 @@ import React from "react";
 //   }
 // `;
 
-const Button = ({ href, text }) => {
+const Button = ({ href, text, download }) => {
   return (
-    <a href={href} className="styled-link-button">
+    <a href={href} className="styled-link-button" download={download}>
       {text}
     </a>
   );

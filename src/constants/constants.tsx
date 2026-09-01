@@ -1,12 +1,22 @@
 export const projects = [
   {
+    title: "Dashboard Performance Revenue Villa",
+    description:
+      "This project is a dashboard that displays the performance of villa revenue. It is built using React JS and Node JS, and uses Tailwind CSS for styling. The dashboard is designed to be responsive and user-friendly, allowing users to easily view and analyze revenue data.",
+    image: "/images/dashboard_betterplace.png",
+    tags: ["Data Visualization", "Power BI", "React JS", "Node JS", "Tailwind"],
+    source: "#",
+    visit: "#",
+    id: 6,
+  },
+  {
     title: "Unity Visual Website (Company Profile)",
     description:
       "Unity Visual is a company that provides services in the field of visual communication, such as graphic design, video production, and animation. This website is built using React JS and Node JS, and uses Tailwind CSS for styling.",
     image: "/images/unityvisual_web.png",
     tags: ["HTML", "CSS", "JavaScript", "NEXT JS", "Tailwind"],
     source: "#",
-    visit: "https://unityvisual.com",
+    visit: "https://natasastra.gmoons.my.id/",
     id: 5,
   },
   {
@@ -157,4 +167,66 @@ export const TimeLineData = [
     text: "Started working at BlackSand Villas as IT for maintaining company database and creating sytem using POWER BI ",
   },
   // { year: 2021, text: "Started my own platform" },
+];
+
+export const ExperienceData = [
+  {
+    id: 1,
+    period: "April 2026 – Present",
+    role: "Revenue Executive & Data Analyst",
+    company: "Betterplace",
+    points: [
+      "Successfully transitioned from a 3-month internship (April–July 2026) into a permanent role.",
+      "Currently developing automation solutions and building data performance dashboards to optimize hospitality management.",
+    ],
+  },
+  {
+    id: 2,
+    period: "2026 – Present",
+    role: "General Treasurer (Bendahara Umum)",
+    company: "Student Executive Board (BEM) ITB STIKOM Bali",
+    points: [
+      "Actively serving as the General Treasurer, managing financial planning, budget allocations, and financial reporting for strategic campus initiatives and student organization programs.",
+    ],
+  },
+  {
+    id: 3,
+    period: "2024 – Present",
+    role: "Freelance Web Developer",
+    company: "Independent",
+    points: [
+      "Develop and build custom websites for clients, including landing pages, company profiles, and information management systems.",
+      "Utilize technologies such as React, Next.js, Laravel, and MySQL with a strong focus on responsive design and optimal page load performance.",
+      "Key Project: Engineered and successfully launched the 'Unitu Visual' website in 2025.",
+    ],
+  },
+  {
+    id: 4,
+    period: "2025",
+    role: "President & Event Director",
+    company: "KSR PMI Unit ITB STIKOM Bali",
+    points: [
+      "Spearheaded the organization as Chairman while concurrently serving as the primary Person in Charge (PIC) for the successful execution of all organizational events and programs throughout the year.",
+    ],
+  },
+  {
+    id: 5,
+    period: "May 2023 – June 2024",
+    role: "Data Visualization Specialist",
+    company: "PT Blacksand Villas (Canggu, Bali)",
+    points: [
+      "Created data visualizations from Excel files using Power BI.",
+      "Developed strategic dashboards and charts to present data in a clear and understandable format, assisting the company in monitoring villa revenue and overall financial performance.",
+    ],
+  },
+  {
+    id: 6,
+    period: "Jan 2021 – Mar 2021",
+    role: "Web Developer & Social Media Intern",
+    company: "PT Bali Pustaka Digital (Iambehokky)",
+    points: [
+      "Designed and developed custom wedding websites using Laravel, and created visually appealing, user-friendly digital invitations using WordPress.",
+      "Managed the company’s Instagram account, executing content planning, post scheduling, and audience engagement strategies.",
+    ],
+  },
 ];
